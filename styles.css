@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+}
+
+.avatar{
+    width: 200px;
+    display: flex; /* flexbox has only two direct children now, avatar and div containing column 2*/
+}
+
+.businessCard{
+    /*border: 1px blue dotted;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.border-blue{
+    /*padding: 10px;*/
+    border: 1px dotted blue;
+}
